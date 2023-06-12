@@ -8,7 +8,10 @@ import {COLORS} from "../constants";
 
 
 const Home = () =>{
-    const [text, setText] = useState(" ");
+    const [text, setText] = useState({
+        numberText: "",
+        displayText: ""
+    });
 
     return(
         <SafeAreaView style={{
@@ -29,7 +32,7 @@ const Home = () =>{
             />
 
             <View style={{height:"40%"}}>
-                <Text>{text}</Text>
+                <Text>{text.displayText}</Text>
             </View>
 
 
