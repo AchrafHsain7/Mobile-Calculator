@@ -1,3 +1,3 @@
-import {COLORS} from "./themes"
+import {COLORSD, COLORSL} from "./themes"
 
-export  {COLORS};
+export  {COLORSD, COLORSL};
